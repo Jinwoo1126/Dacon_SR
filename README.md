@@ -3,7 +3,7 @@
 ![Colab](https://img.shields.io/static/v1?label=Demo&message=Colab&color=orange)
 
 **🔥 Team : 모두연 포레버** <br>
-**🔥 Member : 박수철(Leader), 장진우, 윤성국, 양성모**
+**🔥 Member : 박수철, 장진우, 윤성국, 양성모**
 
 <br>
 
