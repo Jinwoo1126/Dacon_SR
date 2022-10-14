@@ -1,6 +1,6 @@
 # **Dacon AISR**
 
-![Colab](https://img.shields.io/static/v1?label=Demo&message=Colab&color=orange)
+[![Colab](https://img.shields.io/static/v1?label=Demo&message=Colab&color=orange)](https://colab.research.google.com/drive/1YsQYNFk4HY_INYjtruLWCcbiZFPJgCP6?usp=sharing)
 
 **🔥 Team : 모두연 포레버** <br>
 **🔥 Member : 박수철, 장진우, 윤성국, 양성모**
@@ -280,6 +280,8 @@ Results are in the `results` folder
 ```bash
 python realesrgan/train.py -opt options/finetune_realesrnet_x4plus_pairdata.yml
 ```
+
+**experiments result** :  `./experiments/[your experiments name(default='finetune_RealESRNetx4plus_400k_pairdata')]`
 
 <br>
 
