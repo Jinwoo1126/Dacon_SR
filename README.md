@@ -60,6 +60,10 @@ Colab Pro+
 
 **5. gt_size increase `gt_size = 64 -> 512`**
 
+**6. Multistep LR optimizer**
+ - Decays the learning rate of each parameter group by gamma once the number of epoch reaches one of the milestones of 200,000
+ - In the second half of the learning, detailed learning is performed.
+
 <br>
 
 **Main configuration & Hyper parameters**
