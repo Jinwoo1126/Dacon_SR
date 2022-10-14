@@ -9,6 +9,25 @@
 
 ## **Descriptions**
 ---
+**Competition Link : [AI 양재 허브 인공지능 오픈소스 경진대회](https://dacon.io/competitions/official/235977/overview/description)<p>**
+
+**[주제]**
+
+이미지 초 해상(Image Sper-Resolution)를 위한 AI 알고르즘 개발
+
+**[목적 및 배경]**
+
+인공지능 오픈소스를 활용하여 이미지 초해상화 문제를​ 해결함으로써 오픈소스 생태계와 컴퓨터 비전 분야에 기여
+
+
+**[설명]​**
+
+품질이 저하된 저해상도 촬영 이미지(512X512)를 고품질의 고해상도 촬영 이미지(2048X2048)로 생성
+
+**[평가 산식]​**
+
+PSNR(Peak Signal-to-Noise Ratio) 
+$$PSNR = 10log_{10}(\frac{R^2}{MSE})$$
 
 <br>
 
@@ -40,7 +59,7 @@ Colab Pro+
 
 <br>
 
-## **Competition strategies**
+## **✅ Competition strategies**
 ---
 **1. Data Augmentation**
 
@@ -208,7 +227,7 @@ dist_params:
 
 <br>
 
-## **Installation**
+## **🔨 Installation**
 
 ---
 1. Clone repo
@@ -234,7 +253,7 @@ dist_params:
 
 <br>
 
-## **Running Code**
+## **🏃 Running Code**
 ---
 
 **Pretrained Model**
@@ -275,16 +294,20 @@ Results are in the `results` folder
 
 <br>
 
-**Finetuning with pretrained model**
+**(Optional) Finetuning with pretrained model**
 
 ```bash
 python realesrgan/train.py -opt options/finetune_realesrnet_x4plus_pairdata.yml
 ```
 
-**experiments result** :  `./experiments/[your experiments name(default='finetune_RealESRNetx4plus_400k_pairdata')]`
+**experiments result** :  `./experiments/[your experiments name]`
+
+(default='finetune_RealESRNetx4plus_400k_pairdata')
 
 <br>
 
+---
+<br>
 
 
 The test result can be **slightly** diff from ours due to the different hardware architectures. 
