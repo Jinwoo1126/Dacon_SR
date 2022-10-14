@@ -26,7 +26,7 @@
 
 **[평가 산식]​**
 
-PSNR(Peak Signal-to-Noise Ratio) 
+PSNR(Peak Signal-to-Noise Ratio)
 $$PSNR = 10log_{10}(\frac{R^2}{MSE})$$
 
 <br>
@@ -45,15 +45,15 @@ $$PSNR = 10log_{10}(\frac{R^2}{MSE})$$
 
 ```
 <Main>
-OS : 
-CPU : 
-GPU : A100 * 8 
-Memory : 
+OS :
+CPU :
+GPU : A100 * 8
+Memory :
 
 &
 
 <Sub>
-Colab Pro+ 
+Colab Pro+
 ```
 
 
@@ -75,7 +75,7 @@ Colab Pro+
 
  - MSELoss ( PSNR socre is directly related with `MSE` )
 
-**4. Increase `num_feat = 64 -> 96`** 
+**4. Increase `num_feat = 64 -> 96`**
 
 **5. gt_size increase `gt_size = 64 -> 512`**
 
@@ -166,7 +166,7 @@ path:
   param_key_g: params_ema
   strict_load_g: false
   resume_state: ~
-  
+
 # training settings
 train:
   ema_decay: 0.999
@@ -236,7 +236,7 @@ dist_params:
     git clone https://github.com/Jinwoo1126/Dacon_SR.git
     cd Dacon_SR
     ```
-    
+
 
 2. Install dependent packages
 
@@ -269,10 +269,16 @@ dist_params:
 ./Dacon_SR
 ├── inputs
 │   ├── train
-│   │   ├── 0000.png
-│   │   ├── 0001.png
-│   │   ├── 0002.png
-│   │   ├── ...
+|   |   ├── hr
+│   │   |   ├── 0000.png
+│   │   |   ├── 0001.png
+│   │   |   ├── 0002.png
+|   |   |    ...
+│   │   ├── lr
+|   |       ├── 0000.png
+|   |       ├── 0001.png
+|   |       ├── 0002.png
+|   |        ...
 │   ├── test
 │   │   ├── 20000.png
 │   │   ├── 20001.png
@@ -310,7 +316,7 @@ python realesrgan/train.py -opt options/finetune_realesrnet_x4plus_pairdata.yml
 <br>
 
 
-The test result can be **slightly** diff from ours due to the different hardware architectures. 
+The test result can be **slightly** diff from ours due to the different hardware architectures.
 
 **reproducible issues**
 
