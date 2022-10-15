@@ -47,8 +47,8 @@ $$PSNR = 10log_{10}(\frac{R^2}{MSE})$$
 
 ```
 <Main>
-OS :
-CPU : 
+OS : Ubuntu 20.04.5 LTS
+CPU : Intel(R) Xeon(R) Gold 6230R CPU @ 2.10GHz
 GPU : A5000 * 4
 
 &
