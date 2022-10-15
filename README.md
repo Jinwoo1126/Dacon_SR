@@ -15,7 +15,7 @@
 
 **[주제]**
 
-이미지 초 해상(Image Sper-Resolution)를 위한 AI 알고즘 개발
+이미지 초해상화(Image Sper-Resolution)를 위한 AI 알고리즘 개발
 
 **[목적 및 배경]**
 
