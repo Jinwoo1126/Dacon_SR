@@ -1,6 +1,8 @@
 # **Dacon AISR**
 
 [![Colab](https://img.shields.io/static/v1?label=Demo&message=Colab&color=orange)](https://colab.research.google.com/drive/1YsQYNFk4HY_INYjtruLWCcbiZFPJgCP6?usp=sharing)
+[![PDF](https://img.shields.io/static/v1?label=View&message=PDF&color=skyblue)](./Dacon_AISR_Draft.pdf)
+[![Description](https://img.shields.io/static/v1?label=Description&message=Code&color=yellow)](./Dacon_AISR_Demo_Description.ipynb)
 
 **🔥 Team : 모두연 포레버** <br>
 **🔥 Member : 박수철, 장진우, 윤성국, 양성모**
