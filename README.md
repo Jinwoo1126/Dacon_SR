@@ -75,12 +75,10 @@ Colab Pro+
 **3. Loss function**
 
  - MSELoss ( PSNR socre is directly related with `MSE` )
+ 
+**4. gt_size increase `gt_size = 64 -> 512`**
 
-**4. Increase `num_feat = 64 -> 96`**
-
-**5. gt_size increase `gt_size = 64 -> 512`**
-
-**6. Multistep LR optimizer**
+**5. Multistep LR optimizer**
  - Decays the learning rate of each parameter group by gamma once the number of epoch reaches one of the milestones of 200,000
  - In the second half of the learning, detailed learning is performed.
 
@@ -90,7 +88,7 @@ Colab Pro+
 ```
 manuel_seed : 0
 gt_size : 512
-num_feat : 96
+num_feat : 64
 
 train:
   ema_decay: 0.999
