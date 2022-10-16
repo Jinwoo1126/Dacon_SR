@@ -8,6 +8,7 @@ from basicsr.utils.download_util import load_file_from_url
 from realesrgan import RealESRGANer
 from realesrgan.archs.rrdbnetrot_arch import RRDBNetRot
 
+'''
 def GEOMETERY_ENSEMBLE(upsampler, img, outscale):
     flip = [False, True]
     rotate = [0,90,180,270]
@@ -50,6 +51,7 @@ def GEOMETERY_ENSEMBLE(upsampler, img, outscale):
     ensemble /= 8.0
                         
     return ensemble
+'''
 
 def main():
     """Inference demo for Real-ESRGAN.
