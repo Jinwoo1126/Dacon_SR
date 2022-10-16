@@ -39,14 +39,14 @@ network_g:
   type: RRDBNet
   num_in_ch: 3
   num_out_ch: 3
-  num_feat: 96
+  num_feat: 64
   num_block: 23
   num_grow_ch: 32
 
 network_d:
   type: UNetDiscriminatorSN
   num_in_ch: 3
-  num_feat: 96
+  num_feat: 64
   skip_connection: True
 
 # path
@@ -69,7 +69,7 @@ train:
 
   scheduler:
     type: MultiStepLR
-    milestones: [400000]
+    milestones: [200000]
     gamma: 0.5
 
   total_iter: 999999999
